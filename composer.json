@@ -1,0 +1,23 @@
+{
+    "name": "kilroyweb/klink",
+    "description": "Package for easily setting classes for active links",
+    "keywords": [
+        "link",
+        "html",
+        "active"
+    ],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kilroy Web Development",
+            "email": "jeff@kilroyweb.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "KilroyWeb\\Klink\\": "src"
+        }
+    }
+}
