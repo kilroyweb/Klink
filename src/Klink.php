@@ -44,7 +44,7 @@ class Klink
     }
     
     public function addClass($className){
-        $this-anchorClasses[] = $className;
+        $this->anchorClasses[] = $className;
         return $this;
     }
 
