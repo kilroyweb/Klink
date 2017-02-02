@@ -42,6 +42,11 @@ class Klink
         $klink->url = $url;
         return $klink;
     }
+    
+    public function addClass($className){
+        $this-anchorClasses[] = $className;
+        return $this;
+    }
 
     public function alsoCheck($urls=[]){
         $this->checkURLs = array_merge($this->checkURLs,$urls);
